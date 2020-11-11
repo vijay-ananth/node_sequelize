@@ -1,0 +1,111 @@
+{
+    "development": {
+        "username": "",
+        "password": "",
+        "database": "",
+        "host": "",
+        "port": "",
+        "dialect": "",
+        "logging": "",
+        "api_root": "",
+        "social_logins": {
+            "google": {
+                "client_id": "",
+                "secret": ""
+            },
+            "facebook": {
+                "client_id": "",
+                "secret": ""
+            }
+        },
+        "sendOtp":{
+            "key":""
+        },
+        "logger": {
+            "level": "",
+            "colorize": true
+        },
+        "s3": {
+            "key": "",
+            "secret": "",
+            "region": "",
+            "bucket": ""
+        },
+        "mailer": {
+            "b2c":{
+                "host": "",
+                "resetLink": "",
+                "userVerify": ""
+            },
+            "b2b":{
+                "host": "",
+                "resetLink": "",
+                "userVerify": ""
+            }
+        },
+        "vendorSearcher":{
+            "host":"",
+            "url":"",
+            "searchDetail":"",
+            "reindex":""
+        },
+        "razorPay":{
+            "keyId":"",
+            "keySecret":""
+        }
+    },
+    "test": {
+        "username": "",
+        "password": null,
+        "database": "",
+        "host": "",
+        "dialect": ""
+    },
+    "production": {
+        "mailer": {
+            "b2c":{
+                "host": "",
+                "resetLink": "",
+                "userVerify": ""
+            },
+            "b2b":{
+                "host": "",
+                "resetLink": "",
+                "userVerify": ""
+            }
+        },
+        "username": "",
+        "password": "",
+        "database": "",
+        "host": "",
+        "dialect": "",
+        "api_root": "",
+        "social_logins": {
+            "google": {
+                "client_id": "",
+                "secret": ""
+            },
+            "facebook": {
+                "client_id": "",
+                "secret": ""
+            }
+        },
+        "s3": {
+            "key": "",
+            "secret": "",
+            "region": "",
+            "bucket": ""
+        },
+        "vendorSearcher":{
+            "host":"",
+            "url":"",
+            "searchDetail":"",
+            "reindex":""
+        },
+        "razorPay":{
+            "keyId":"",
+            "keySecret":"",
+            "merchantId":""
+        }
+    }
+}
