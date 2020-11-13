@@ -10,19 +10,9 @@ module.exports = {
             logging: '',
             logQueryParameters: ''
         },
-        // redis: {
-        //   host: 'localhost',
-        //   port: '6379',
-        //   prefix: 'zoprent-keys-',
-        //   expiry: 900
-        // },
+      
         api_root: '',
-        // vendorSearcher: {
-        //   host: 'http://localhost:3000',
-        //   url: '/api/search.json',
-        //   searchDetail: '/api/details',
-        //   reindex: '/api/reindex'
-        // }
+    
     },
     staging: {
         sequelize: {
@@ -36,12 +26,7 @@ module.exports = {
             logQueryParameters: ''
         },
         api_root: '',
-        // vendorSearcher: {
-        //   host: 'http://localhost:7000',
-        //   url: '/api/search.json',
-        //   searchDetail: '/api/details',
-        //   reindex: '/api/reindex'
-        // }
+      
     },
     production: {
         sequelize: {
@@ -52,23 +37,11 @@ module.exports = {
             host: '',
             dialect: '',
             pool: {
-                max: 25
+                max: ''
             },
             logging: '',
             logQueryParameters: ''
         },
-        // redis: {
-        //   host: 'localhost',
-        //   port: '6379',
-        //   prefix: 'zoprent-keys-',
-        //   expiry: 900
-        // },
         api_root: '',
-        // vendorSearcher: {
-        //   host: 'http://139.59.6.10',
-        //   url: '/api/search.json',
-        //   searchDetail: '/api/details',
-        //   reindex: '/api/reindex'
-        // }
     }
 }
